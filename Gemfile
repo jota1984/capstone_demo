@@ -7,6 +7,7 @@ gem 'pg'
 
 group :development do 
   gem 'spring', :group => :development
+  gem 'rspec-rails' 
 end
 
 group :production do 
