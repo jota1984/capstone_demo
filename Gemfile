@@ -6,8 +6,12 @@ gem 'rails-api'
 gem 'pg'
 
 group :development do 
-  gem 'spring', :group => :development
+  gem 'spring'
+end
+group :development, :test do 
+  gem 'spring'
   gem 'rspec-rails' 
+  gem 'byebug' 
 end
 
 group :production do 
