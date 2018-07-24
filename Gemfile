@@ -4,6 +4,7 @@ ruby '2.2.5'
 gem 'rails', '4.2.6'
 gem 'rails-api'
 gem 'pg'
+gem 'mongoid' 
 
 group :development do 
   gem 'spring'
